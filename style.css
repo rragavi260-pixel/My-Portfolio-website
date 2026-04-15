@@ -415,3 +415,152 @@ nav a:hover{
   color: #4b5563;
   line-height: 1.5;
 }
+
+@media (max-width: 1024px) {
+
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+  }
+
+  .hero-left p {
+    font-size: 18px;
+  }
+
+  .hero-right img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  .skills {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .featured-project {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .featured-project img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 15px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 8px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero-left h1 {
+    font-size: 28px;
+  }
+
+  .hero-left p {
+    font-size: 16px;
+  }
+
+  .hero-right img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .section {
+    padding: 40px 20px;
+  }
+
+  .section h2 {
+    font-size: 26px;
+  }
+
+  .about-box {
+    height: auto;
+    padding: 25px;
+  }
+
+  .about-box p {
+    font-size: 16px;
+  }
+
+  .skill-card {
+    width: 150px;
+    padding: 15px;
+  }
+
+  .skill-card img {
+    width: 70px;
+  }
+
+  .hobby-card {
+    width: 150px;
+    height: auto;
+    padding: 15px;
+  }
+
+  .featured-project {
+    padding: 20px;
+  }
+
+  .project-content h3 {
+    font-size: 20px;
+  }
+
+  .achievement-card img {
+    height: 200px;
+  }
+
+  .footer {
+    padding: 25px;
+  }
+
+  .footer-right img {
+    width: 35px;
+    margin: 10px;
+  }
+}
